@@ -20,8 +20,8 @@ function Footer() {
                 <circle cx="0" cy="0" r="40" />
                 <circle cx="100" cy="100" r="80" />
               </svg>
-              <span className="font-light text-xl tracking-tight">
-                kraken charity
+              <span className="font-extrabold text-xl tracking-tight">
+                kraken/charity
               </span>
             </div>
           </a>
@@ -55,7 +55,7 @@ function Footer() {
             href="https://charity.krakenlouis.com/"
             className="hover:underline"
           >
-            kraken charity
+            kraken/charity
           </a>
           . All Rights Reserved.
         </span>

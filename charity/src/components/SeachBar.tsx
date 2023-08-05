@@ -34,7 +34,7 @@ function SearchBar() {
         />
         <button
           type="submit"
-          className="text-white absolute right-2.5 bottom-2.5 bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-teal-400 dark:hover:bg-teal-500 dark:focus:ring-teal-600"
+          className="text-white absolute right-2.5 bottom-2.5 bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-slate-900 dark:hover:bg-slate-600 dark:focus:ring-slate-900"
         >
           Search
         </button>

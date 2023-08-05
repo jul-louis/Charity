@@ -9,12 +9,15 @@ import About from "./components/About.tsx";
 import News from "./components/News.tsx";
 import Charity from "./components/Charity.tsx";
 import Footer from "./components/Footer.tsx";
+import ScrollToTop from "./components/ScrollToTop.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
     <App />
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/Home" element={<Home />} />
       <Route path="/Charity" element={<Charity />} />
       <Route path="/Favorite" element={<Favorite />} />
       <Route path="/News" element={<News />} />

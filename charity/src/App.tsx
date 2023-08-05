@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="overflow-auto bg-white text-black dark:text-black dark:bg-slate-950">
+    <div className="static overflow-auto bg-white text-black dark:text-black dark:bg-slate-950">
       <NavigationBar />
     </div>
   );

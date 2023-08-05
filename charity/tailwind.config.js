@@ -8,6 +8,8 @@ export default {
       },
       spacing: {
         128: "32rem",
+        192: "32rem",
+        256: "64rem",
       },
     },
   },

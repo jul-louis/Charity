@@ -1,6 +1,10 @@
 interface CharityCard {
-  data: Object | undefined;
-  parsedBody?: Object;
+  nonprofitTags: NonprofitTag | undefined;
+}
+
+interface NonprofitTag {
+  id: string;
+  tagName: string;
 }
 
 interface CharityResponse<T> extends Response {
@@ -8,4 +12,4 @@ interface CharityResponse<T> extends Response {
   parsedBody?: T;
 }
 
-export type { CharityCard, CharityResponse };
+export type { CharityCard, CharityResponse, NonprofitTag };
